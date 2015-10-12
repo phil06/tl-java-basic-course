@@ -8,5 +8,13 @@ public class TypeConversion {
 		/* byte - short(char) - int - long - float - double */
 		int c = 2;
 		System.out.println(a+c);
+		
+		//명시적 형변환
+		float c1 = (float) 100.0;
+		int c2 = (int) 100.0F;
+		
+		System.out.println(c1);
+		System.out.println(c2);
+
 	}
 }

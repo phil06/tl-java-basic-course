@@ -1,0 +1,6 @@
+10/12 (am) > 형변환 (dustin)
+             연산자 (saera)
+
+10/12 (pm) > 비교와 Boolean (jade)
+             조건문 (ming)
+             논리연산자 (saera)      

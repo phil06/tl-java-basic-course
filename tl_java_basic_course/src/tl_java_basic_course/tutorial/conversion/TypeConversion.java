@@ -15,6 +15,11 @@ public class TypeConversion {
 		
 		System.out.println(c1);
 		System.out.println(c2);
+		
+//		double ret2 = 982734234234534534;
+//		int ret1 = (int)ret2;
+//		System.out.println(ret1);
+		
 
 	}
 }

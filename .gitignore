@@ -1,1 +1,7 @@
 .txt
+tl_java_basic_course/.classpath
+tl_java_basic_course/bin/tl_java_basic_course/tutorial/variables/StringDemo.class
+tl_java_basic_course/bin/tl_java_basic_course/tutorial/variables/IntegerDemo.class
+*.class
+tl_java_basic_course/.settings/org.eclipse.core.resources.prefs
+*.prefs

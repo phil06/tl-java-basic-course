@@ -1,0 +1,23 @@
+package tl_java_basic_course.tutorial.conditionaloperator;
+
+public class OrDemo {
+	// Or 연산 (||) * | 아님
+	public static void main(String[] args) {
+		if(true||true){
+			System.out.println(1);
+		}
+		
+		if(true || false){
+			System.out.println(2);
+		}
+		
+		if(false || true){
+			System.out.println(3);
+		}
+		
+		if(false || false){
+			System.out.println(4);
+		}
+	}
+
+}

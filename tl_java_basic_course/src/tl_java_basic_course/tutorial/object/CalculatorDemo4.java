@@ -1,4 +1,4 @@
-package tl_java_basic_course.tutorial.object;
+package tl_java_basic_course.tutorial.object;	//내가 속한 패키지
 
 class Calculator{
 	int left;

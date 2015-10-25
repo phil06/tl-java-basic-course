@@ -9,7 +9,7 @@ public class ScopeDemo4 {
 
 	public static void main(String[] args) {
 		a();
-		System.out.println(title);
+//		System.out.println(title);
 	}
 
 }

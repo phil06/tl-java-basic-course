@@ -111,6 +111,45 @@ java파일 안에는 class는 public 하나만 들어감
 
 !! overloading{
 	같은 이름 다른 매개변수의 숫자, 형식으로인해 오버로딩이 된다.
+}
+
+!! classpath{
+	java -classpath ".;lib" ClasspathDemo2
+	> -classpath : 클래스패스 지정
+	  "~;~" : 패스의 우선적으로 참조할 디렉토리 설정
+	          (경로와 경로를 구분해주는 구분자 역할)
+	* 클래스패스를 지정하지 않을경우엔 현재 위치한 디렉토리에서 명시적으로 찾는다.
+	
+	환경변수 : 컴파일된 클래스파일이 위치할 디렉토리(경로지정)
+	           운영체제 안에 세팅하는 변수(어디에 있던 접근가능한 글로벌한 변수)
+}
+
+!! 패키지{
+	동일한 클래스(이름의 중복/충돌)를 해결하기 위해 고안됨
+	like 디렉토리
+	package tl_java_basic_course.tutorial.object;	//내가 속한 패키지
+	
+	bin 폴더 > 바이트 코드의 형태의 클래스가 위치
+	src 폴더 > 버추얼머신이 이해할 수 있는 소스 코드가 위치
+	
+	// D:\Git\tl-java-basic-course\tl_java_basic_course>javac src/tl_java_basic_course/tutorial/packages/example3/*.java
+	> *.java 하면 모든 파일을 컴파일 한다는것
+	> 하지만 이렇게 하면 실행한 위치에 클래스파일이 생성됨
+	
+	// D:\Git\tl-java-basic-course\tl_java_basic_course>javac src/tl_java_basic_course/tutorial/packages/example3/*.java -d bin
+	> -d [경로] 옵션은 컴파일된 클래스파일이 위치할 디렉토리를 지정하겠다는것
+	* 자바 컴파일러가 자동으로 패키지에 해당하는 디렉토리를 생성해 준다.
+	
+}
+
+!! API 와 API문서 보는법 {
+	// System.out.println();
+	System - out - println 이라는 메소드가 존재하는것
+	out 은 static 메소드(인스턴스화 하지 않았어도 사용할 수 있어서?)
+
+	// API 에 대해서
+	UI = User Interface
+	API = Application Programming Interface
 	
 }
 

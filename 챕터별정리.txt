@@ -198,7 +198,12 @@ java파일 안에는 class는 public 하나만 들어감
 }
 
 !! 예외 {
-	
+	TLCodeException 같은거
+	RuntimeException 을 상속받느냐의 여부에 따라 Exception 의 throw / try~catch 의 강제성이 달라진다.'
+	* Error 와 Exception 의 차이
+		Error - 환경적인것(JVM이나, 사용자가 건들지 않은부분) - 프로세스 기반 - 어플리케이션 다운
+		Exception - 사용자가 만든거에서 생긴 로직상의 오류? - 쓰레드 기반 - 쓰레드 다운
+		@ 요즘엔 거의 unchecked 를 사용한다고 생각해도 됨
 }
 
 
@@ -206,6 +211,7 @@ java파일 안에는 class는 public 하나만 들어감
 
 
 
+* sysout.println // syserr.println 차이
 
 
 
